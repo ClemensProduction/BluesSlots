@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"props_industrial/beartrap/lod02_beartrap"
+
+	"$surfaceprop" "Metal"
+	"$model" 1
+
+}

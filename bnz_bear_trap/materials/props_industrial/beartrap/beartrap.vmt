@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"props_industrial/beartrap/beartrap"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$envmapfresnel" "2"
+
+	 
+	"$bumpMap"				"props_industrial/beartrap/beartrap_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "Metal"
+	"$model" 1
+
+
+	"$phong" "1"
+	"$phongexponenttexture" "props_industrial/beartrap/beartrap_pho"
+
+	"$phongboost" "5"	
+	"$phongalbedotint" 1
+	"$phongfresnelranges"	"[1 2 3]"
+	"$halflambert" "1"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"					// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"			// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"			// Boost for ambient cube component of rim lighting
+	"$rimmask" "1"                  // Use the alpha channel of the $phongexponenttexture as a rim mask.
+}
